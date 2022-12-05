@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.nav{
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  
+ }
+ .nav a{
+  padding: 2%;
+  color: deeppink;
+  text-decoration: none;
+  font-size: 30px;
+ }

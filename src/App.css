@@ -52,10 +52,22 @@
   font-size: 30px;
  }
  .hello{
-  background-color: deeppink;
+  background-color: slateblue;
+  display: flex;
   align-items: center;
   justify-content: center;
-  color: lightseagreen;
+  color: hotpink;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 3%;
+ }
+ .hi{
+  background-color: slateblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: hotpink;
   text-decoration: none;
   font-size: 25px;
   padding: 3%;

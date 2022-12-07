@@ -4,7 +4,7 @@ function About(){
 	const [village,setVillage]=useState("vijayawada");
 	const [name,setName]=useState("aasritha")
 	return(
-		<div className="hello">
+		<div className="hi">
 		<h1>{name}</h1>
 		<p>{village}</p>
 		<p><input onChange={(e)=>setVillage(e.target.value)} placeholder="Enter your village"/></p>
